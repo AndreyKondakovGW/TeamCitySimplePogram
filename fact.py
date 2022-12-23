@@ -6,4 +6,4 @@ def fact(n):
         return n * fact(n-1)
 
 if __name__ == "__main__":
-    print(fact(int(sys.argv[1])))
+    fact(5)
